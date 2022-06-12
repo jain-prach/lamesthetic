@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Sora:wght@600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#270720;
+    color: rgb(204, 124, 174);
+    font-family: 'Sora', sans-serif;
+}
+#logo{
+    height: auto;
+    width: auto;
+    max-height: 60px;
+    max-width: 468px;
+    padding:0;
+    margin:0;
+}
+header{
+    background-color: rgb(183, 154, 173);
+    color: #70105d;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 80px;
+    width: 100%;
+}
+body > header{
+    position:sticky; /*As fixed is not working for me here*/
+    top: 0;
+}
+nav{
+    flex: 1;
+    text-align:right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.search{
+    width: 50vw;
+    position: relative;
+    display:flex;
+}
+.searchbox{
+    width: 50%;
+    height: 3.5vh;
+    border: white solid 1px;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+    outline:none;
+    color:#70105d;
+}
+.searchbox:focus{
+    color: black;
+}
+.searchButton{
+    width:30px;
+    height:3.5vh;
+    border: 1px solid #70105d;
+    background-color:#70105d;
+    text-align:center;
+    color:#fff;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    font-size:20px;
+}  
+.active a{
+    text-decoration: none;
+    color: #70105d;
+}
+.active a:hover{
+    color: white;
+    background-color:#70105d;
+    border: white solid 1px;
+    padding: 20px;
+}
+.shoppingcart{
+    width:30px;
+    height:3.5vh;
+    font-size:20px;
+}
+.shoppingcart:hover{
+    color:#270720;
+}
+main{
+    background-color: #270720;
+    color: rgb(183, 154, 173);
+}
+.intro{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    /* background: radial-gradient(#9d558d, #4f0e41); */
+    /* margin-top: 20px; */
+}
+.intro-col{
+    flex-basis: 50%;
+    min-width:300px;
+    padding: 0 25px;
+    text-align: justify;
+}
+.intro-col img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.intro-col h1{
+    font-size: 50px;
+    line-height: 80px;
+    margin: 25px 0;   
+}
+.btn{
+    display: inline-block;
+    background-color:#b79aad; 
+    color: #270720;
+    padding: 10px 20px;
+    margin: 30px 0;
+    text-decoration: none;
+}
+.btn:hover{
+    color:rgb(183, 154, 173); 
+    background-color: #270720;
+}
+.preview{
+    margin: 20px 0;
+}
+.preview-col{
+    flex-basis: 25%;
+    min-width:250px;
+    margin: 20px 0px;
+    padding: 0 20px;
+}
+.small-preview{
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px 20px;
+    background-color: rgb(183, 154, 173);
+}
+.border-box{
+    max-width: 1500px;
+    padding: 20px 20px;
+    margin: auto;
+    border: rgb(183, 154, 173) dashed 5px;
+}
+footer{
+    background-color: rgb(183, 154, 173);
+    color: #70105d;
+}
