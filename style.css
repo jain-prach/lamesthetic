@@ -275,7 +275,7 @@ main{
     width:500px;
     height:600px;
     object-fit: cover;
-    /* transform: scale(0.8) rotate(-10deg); */  
+    transform: scale(0.8) rotate(-10deg);  
     box-shadow: 2px 2px 20px rgba(126, 158, 133, 0.5);
 }
 .offer-col h2{
@@ -308,7 +308,7 @@ main{
     height:500px;
     padding:20px;
     margin:10px;
-    background-color: #441835;
+    background-color:#270720;
     border-radius: 20px;
     display:grid;
     justify-content: center;
@@ -369,6 +369,38 @@ main{
     color:#b79aadd5;
 }
 footer{
-    background-color: #b79aad;
+    background-color: rgba(183, 154, 173,1);
     color: #270720;
+}
+.frow{
+    margin-left:10px;
+    padding: 30px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.fcol{
+    flex-direction:column;
+}
+.fcol ul{
+    list-style-type: none;
+    padding:10px 0px;
+}
+footer a:hover{
+    color:rgb(55,79,40);
+}
+.fhead{
+    padding-bottom:5px; 
+    font-weight:bold;
+}
+.socials{
+    display:grid;
+    justify-content: space-evenly;
+    grid-template-rows: 15px 15px 15px 15px 15px;
+    grid-template-columns: 15px 15px 15px 15px 15px;
+    padding:0px 0px;
+}
+footer p{
+    text-align: center;
+    background-color: #270720;
+    color:#b79aad;
 }
