@@ -44,6 +44,7 @@ header{
     padding: 20px;
     height: 80px;
     width: 100%;
+    z-index: 4;
 }
 body > header{
     position:sticky; /*As fixed is not working for me here*/
@@ -186,14 +187,14 @@ main{
 .product{
     margin: 20px 0;
 }
-.pro{
+.heading{
     text-align:center;
     margin: 0 auto 30px;
     position:relative;
     line-height:60px;
     color:#b79aad;
 }
-.pro::after{
+.heading::after{
     content:'';
     background:#b79aad;
     width:150px;
@@ -221,7 +222,6 @@ main{
 .product-col:hover{
     box-shadow: 2px 2px 30px rgba(158, 126, 153, 0.5);
 } 
-
 .product-col img{
     width:100%
 }

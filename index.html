@@ -10,6 +10,10 @@
         <link rel="shortcut icon" href="img\Lamesthetic.png" type="image/x-icon">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!--for search button-->
         <link rel="preconnect" href="https://fonts.googleapis.com"> <!--for fonts-->
+        <link rel = "stylesheet" href = "lightslider.css">
+        <script type="text/javascript" src="script.js"></script> <!--javascript linking-->
+        <script type="text/javascript" src="jquery.js"></script> 
+        <script type="text/javascript" src="lightslider.js"></script> <!--javascript linking-->
     </head>
     <body>
         <!-- ------------------header=navigation bar----------------->
@@ -21,10 +25,10 @@
                     <input type="text" name="searchbox" class="searchbox" id="searchbox" placeholder="find what you need">
                     <button type="Submit" class="searchButton" id="searchbutton"><i class="fa fa-search"></i></button>
                 </div></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Account</a></li>
-                <li><a href="">Contact Us</a></li>   
+                <li><a href="#product">Products</a></li>
+                <li><a href="#intro">About</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#footer">Contact Us</a></li>   
                </ul>
             </nav>
             <div class="shoppingcart">
@@ -39,7 +43,7 @@
                     <div id="intro-col" class="intro-col">
                         <h1>&#10077; Picked just for you<br>Your Own Aesthetic! &#10078;</h1> 
                         <p>We designed this site to pick the best from the rest, just for you. Are you tired of browsing through shopping websites just to find out the style you are looking for isn't yours? This website provides suggestions and options based on aesthetics. And what do you do? Just click your aesthetic and find your style.</p>
-                        <a href="" class="btn">Explore Now &#10145;</a>
+                        <a href="#product" class="btn">Explore Now &#10145;</a>
                     </div>
                     <div class="intro-col" id="intro-col">
                         <figure>
@@ -69,47 +73,47 @@
                 </div>
             </div>
             <div class="row">
-                <div class="product">
-                    <h2 class="pro">OUR PRODUCTS</h2>
+                <div id = "product" class="product">
+                    <h2 class="heading">OUR PRODUCTS</h2>
                     <div class="small-container">
                         <div class="product-col">
                             <img src="img\blue.jpg" alt="blue mini skirt top">
                             <div class="details">
                                 <div class="type">
-                                    <a href="">Blue Mini Skirt</a>
+                                    <a href="#">Blue Mini Skirt</a>
                                     <span>SweetGirl</span>
                                 </div>
-                                <a href="" class="price">$120</a>
+                                <a href="#" class="price">$120</a>
                             </div>
                         </div>
                         <div class="product-col">
                             <img src="img\corset.jpg" alt="corset top">
                             <div class="details">
                                 <div class="type">
-                                    <a href="">Corset</a>
+                                    <a href="#">Corset</a>
                                     <span>BaddieFit</span>
                                 </div>
-                                <a href="" class="price">$30</a>
+                                <a href="#" class="price">$30</a>
                             </div>
                         </div>
                         <div class="product-col">
                             <img src="img\ruffle.jpg" alt="ruffle dress">
                             <div class="details">
                                 <div class="type">
-                                    <a href="">Ruffle Dress</a>
+                                    <a href="#">Ruffle Dress</a>
                                     <span>Peace</span>
                                 </div>
-                                <a href="" class="price">$80</a>
+                                <a href="#" class="price">$80</a>
                             </div>
                         </div>
                         <div class="product-col">
                             <img src="img\halter.jpg" alt="halter top">
                             <div class="details">
                                 <div class="type">
-                                    <a href="">Halter Top</a>
+                                    <a href="#">Halter Top</a>
                                     <span>Y2K</span>
                                 </div>
-                                <a href="" class="price">$60</a>
+                                <a href="#" class="price">$60</a>
                             </div>
                         </div>
                     </div>
@@ -117,86 +121,86 @@
             </div>
             <div class="row">
                 <div class="product">
-                    <h2 class="pro">NEW ARRIVALS</h2>
+                    <h2 class="heading">NEW ARRIVALS</h2>
                     <div class="small-container">
                         <div class="product-col">
                             <img src="img\feature5.jpg" alt="Butterfly Pendant">
                             <div class="details">
                                 <div class="type">
-                                    <a href="">Butterfly Pendant</a>
+                                    <a href = "#">Butterfly Pendant</a>
                                     <span>SweetGirl</span>
                                 </div>
-                                <a href="" class="price">$10</a>
+                                <a href = "#" class="price">$10</a>
                             </div>
                         </div>
                         <div class="product-col">
                             <img src="img\feature6.jpg" alt="Sweater Vest">
                             <div class="details">
                                 <div class="type">
-                                    <a href="">Sweater Vest</a>
+                                    <a href = "#">Sweater Vest</a>
                                     <span>Vintage</span>
                                 </div>
-                                <a href="" class="price">$60</a>
+                                <a href = "#" class="price">$60</a>
                             </div>
                         </div>
                         <div class="product-col">
                             <img src="img\feature10.jpg" alt="Formal Suit">
                             <div class="details">
                                 <div class="type">
-                                    <a href="">Formal Suit</a>
+                                    <a href = "#">Formal Suit</a>
                                     <span>BossGirl</span>
                                 </div>
-                                <a href="" class="price">$180</a>
+                                <a href = "#" class="price">$180</a>
                             </div>
                         </div>
                         <div class="product-col">
                             <img src="img\feature2.jpg" alt="Tie Knot Top">
                             <div class="details">
                                 <div class="type">
-                                    <a href="">Tie Knot Top</a>
+                                    <a href = "#">Tie Knot Top</a>
                                     <span>Y2K</span>
                                 </div>
-                                <a href="" class="price">$60</a>
+                                <a href = "#" class="price">$60</a>
                             </div>
                         </div>
                         <div class="product-col">
                             <img src="img\feature11.jpg" alt="sweater top">
                             <div class="details">
                                 <div class="type">
-                                    <a href="">Button Sweater Top</a>
+                                    <a href = "#">Button Sweater Top</a>
                                     <span>Y2K</span>
                                 </div>
-                                <a href="" class="price">$90</a>
+                                <a href = "#" class="price">$90</a>
                             </div>
                         </div>
                         <div class="product-col">
                             <img src="img\feature8.jpg" alt="tracksuit">
                             <div class="details">
                                 <div class="type">
-                                    <a href="">Tracksuit</a>
+                                    <a href = "#">Tracksuit</a>
                                     <span>Peace</span>
                                 </div>
-                                <a href="" class="price">$60</a>
+                                <a href = "#" class="price">$60</a>
                             </div>
                         </div>
                         <div class="product-col">
                             <img src="img\feature3.jpg" alt="tank top">
                             <div class="details">
                                 <div class="type">
-                                    <a href="">Tank Top</a>
+                                    <a href = "#">Tank Top</a>
                                     <span>BossGirl</span>
                                 </div>
-                                <a href="" class="price">$10</a>
+                                <a href = "#" class="price">$10</a>
                             </div>
                         </div>
                         <div class="product-col">
                             <img src="img\feature1.jpg" alt="co-ord set">
                             <div class="details">
                                 <div class="type">
-                                    <a href="">Co-ord Set</a>
+                                    <a href = "#">Co-ord Set</a>
                                     <span>LazyGirl</span>
                                 </div>
-                                <a href="" class="price">$130</a>
+                                <a href = "#" class="price">$130</a>
                             </div>
                         </div>
                     </div>
@@ -216,7 +220,7 @@
                 </div>
             </div>
             <div class="row">
-                <h2 class="pro">WHAT OUR CUSTOMERS SAY</h2>
+                <h2 class="heading">WHAT OUR CUSTOMERS SAY</h2>
                 <div class="container">
                     <div class="testimonials">
                         <img src="img\model1.jpg" alt="some model" width="235px" heigth="306px">
